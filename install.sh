@@ -8,8 +8,6 @@
 
 # Versions
 CHROME_DRIVER_VERSION=`curl -sS https://chromedriver.storage.googleapis.com/LATEST_RELEASE`
-SELENIUM_STANDALONE_VERSION=3.9.1
-SELENIUM_SUBDIR=$(echo "$SELENIUM_STANDALONE_VERSION" | cut -d"." -f-2)
 
 # Remove existing downloads and binaries so we can start from scratch.
 sudo apt-get remove google-chrome-stable
